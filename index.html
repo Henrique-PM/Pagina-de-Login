@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estilo.css"/>
+        <link rel="icon" href="C:/HTML/Imagens/login.png"/>
+        <title>Página De Cadastro</title>
+        
+    </head>
+
+<body>
+    <header>
+        <div class="cabeçario">
+            <div class="logo">
+                <img  class="logo-imagem" src="C:/HTML/Imagens/login.png" alt="logo site">
+            </div>
+            <div>
+                <h1 class="titulo"> Página de Cadastro</h1>
+            </div>
+
+        
+        </div>    
+    </header> 
+    
+    </div>    
+        <!--login-->
+        <div class="login1">
+            
+
+             <!--imagem a cima da pagina de login-->
+                <div class="image-apoio">
+                    <img  id="image1" src="C:/HTML/Imagens/login3.png" >
+                </div>
+
+                         <div class="actionBtns">  
+                            <button class="Btn" >Registre-se</button>
+                            <a href="C:/HTML/Pagina de Login/index2.html"><button class="Btn" >Login</button></a>
+                        </div>  
+                        
+
+                <div class="userform">
+                        <form action="Informação de Login.html" method="post" class="form  signup signupForm"  >
+                            
+                            <h1 id="login-name">Registre-se</h1>
+                        <div class="login-bar"></div>
+
+                            <div class="box-user">
+                                <input id="nome" type="text"  required minlength="3" />
+                                <label class="nome-label">Nome Completo</label>
+                            </div>
+                        
+                            <br/><br>
+
+                            <div class="box-user">
+                                <input id="nome" type="text"  required minlength="3" />
+                                <label class="nome-label">Email</label>
+                            </div>
+                        
+                            <br/><br>
+                            <div class="box-user">            
+                                <input id="Senha" type="password"  required minlength="6" />
+                                <label class="senha-label">Senha</label>
+                            </div>
+                            <br><br>
+
+
+                            <label class="lembredemim">
+                                <input type="checkbox" class="concordo"/>
+                                Concordo com todos os termos e condições
+                            </label>
+                            <br/> <br/><br>
+                            
+                                    <input id="Enviar" type="submit"/>
+                            
+                            <br/><br/>
+                        </form>
+
+                        
+                </div> 
+
+                <div class="content">
+                    <div class="slides">
+                        <!--radio buttons-->
+                        <input class="input" type="radio" name="radio-btn" id="slide1" checked/>
+                        <input class="input" type="radio" name="radio-btn" id="slide2"/>
+                        <input class="input" type="radio" name="radio-btn" id="slide3"/>
+                        <input class="input" type="radio" name="radio-btn" id="slide4"/>
+            
+                        <script>
+                            let contador = 1;
+            
+                            setInterval(function(){
+                                document.getElementById('slide' + contador).checked = true;
+                                contador ++;
+            
+                                if(contador > 4){
+                                    contador = 1
+                                }
+            
+                            },3000)
+            
+                        </script>
+                     
+            
+                         
+                        <div class="slide s1">
+                            <img src="C:/HTML/Imagens/fotografias/rj1 (55).jpg" alt="image1">
+                        </div>
+                        
+                        <div class="slide">
+                            <img src="C:/HTML/Imagens/fotografias/rj1 (64).jpg" alt="image2">
+                        </div>
+            
+                        <div class="slide">
+                            <img src="C:/HTML/Imagens/fotografias/rj1 (59).jpg" alt="image3">
+                        </div>
+            
+                        <div class="slide">
+                            <img src="C:/HTML/Imagens/fotografias/rj1 (87).jpg" alt="image4">
+                        </div>
+                    </div>
+               </div>
+            
+                        <div class="navegation">
+                
+                            <label for="slide1" class="manual-btn"></label>
+                            <label for="slide2" class="manual-btn"></label>
+                            <label for="slide3" class="manual-btn"></label>
+                            <label for="slide4" class="manual-btn"></label>
+                        </div>  
+
+
+        </div>  
+                     
+
+    <footer class="rodape">
+            <div style="height:110px; width:100%; background-color: rgba(74, 74, 74, 0.781) ;position:absolute;top:106%;">
+                <h3>Página de Login</h3>
+                <p>© Copyright 2023 Henrique.PM</p>
+            </div>
+    </footer>       
+
+</body>
