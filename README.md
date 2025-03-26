@@ -1,6 +1,6 @@
 # Página de Login
 
-Esta é uma página de login genérica desenvolvida como um exercício de aprimoramento na linguagem HTML, CSS e JavaScript. O objetivo deste projeto foi criar uma interface simples e funcional para um sistema de login, com um design limpo e responsivo.
+Esta é uma página de login genérica desenvolvida como um exercício de aprimoramento na linguagem HTML, CSS e JavaScript. O objetivo deste projeto foi criar uma interface simples e funcional para um sistema de login.
 
 ## Funcionalidades
 
